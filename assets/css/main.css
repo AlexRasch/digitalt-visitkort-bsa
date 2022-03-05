@@ -1,0 +1,75 @@
+/* Header & Menu */
+.menu-qr {
+	background-color:#555;
+	border-bottom: solid 0.3rem;
+	border-color:rgb(239,1,7);
+	border-image:radial-gradient(circle, rgba(239,1,7,1) 0%, rgba(102,0,0,1) 100%);
+	border-image-slice: 1;
+}
+
+.menu-qr a:hover{
+	background-color: #000;
+}
+
+.menu-qr a {
+	color: #fff;
+}
+
+
+.qr-img {
+	
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	max-width:360px;
+}
+
+.l-box {
+    margin: 1rem;
+	width: 90%;
+}
+
+
+/* UI */
+
+.qr-save {
+		margin:0px 10px 0px 10px;
+		width:95%;
+		color:white;
+		background-color: #04AA6D;
+}
+.qr-save:hover {background-color: #46a049;}
+
+.pure-menu-disabled{
+	color:white;
+}
+
+/* Table  */
+.pure-table-horizontal thead {
+	background-color: #04AA6D;
+	color: white;
+}
+
+/* Footer*/
+
+.footer {
+	
+	padding:0.3rem;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	background-color:#555;
+	
+	border-top: solid 0.3rem;
+	border-color:rgb(239,1,7);
+	border-image:radial-gradient(circle, rgba(239,1,7,1) 0%, rgba(102,0,0,1) 100%);
+	border-image-slice: 1;
+}
+
+.footer .copyright {
+	color:white;
+}
+
+.footer .copyright a {
+	text-decoration:none;
+	color:white;
+}
